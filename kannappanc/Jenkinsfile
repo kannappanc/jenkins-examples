@@ -1,1 +1,1 @@
-node {build job: 'PetClinicBuild', parameters: [string(name: 'mychoice', value: 'install')]}
+node {build job: 'petclinic-bodh', parameters: [string(name: 'mychoice', value: 'install')]}
